@@ -1,18 +1,17 @@
 // object
 let user: {
-    id : number;
+    id? : number;
     name : string;
 } = {
     id: 1,
     name : '이유정',
 };
 
-let dog : {
-    name : string;
-    color : string;
+let config : {
+    readonly apiKey : string;
 } = {
-    name: '멍멍이',
-    color : 'brown',
-}
+    apiKey : 'MY API KEY',
 
-user.id;
+};
+
+// config.apiKey = "hacked";
