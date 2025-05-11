@@ -13,4 +13,11 @@ let doubleArr = [
 // 튜플 -> 길이와 타입이 정해져 있는 배열
 let tup1 = [1, 2];
 let tup2 = [1, "hello", true];
+const users = [
+    ["winterlood", 1],
+    ["winterlood2", 2],
+    ["winterlood3", 3],
+    ["winterlood4", 4],
+    // [5, "winterlood5"]
+];
 export {};
