@@ -7,6 +7,10 @@ type User  = {
     birth : string;
     bio : string;
     location : string;
+};
+
+function func(){ // func 안에서는 아래의 User 타입을 사용
+    type User = {};
 }
 
 let user1: User = {
@@ -16,7 +20,7 @@ let user1: User = {
     birth : '2008.08.19',
     bio : '안녕하세요',
     location : '서울'
-}
+};
 
 let user2: User = {
     id : 2,
@@ -25,4 +29,4 @@ let user2: User = {
     birth : '2008.08.19',
     bio : '안녕하세요',
     location : '서울'
-}
+};
