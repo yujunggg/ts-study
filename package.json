@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/node": "^22.15.14"
+    "@types/node": "^22.15.14",
+    "styled-components": "^6.1.18"
   }
 }
