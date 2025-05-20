@@ -30,3 +30,4 @@ let a : never;
 // a = anyVar;
 // never 타입은 어떤 타입도 할당할 수 없다.
 // a = 1; // Error
+// a = "hello"; // Error
